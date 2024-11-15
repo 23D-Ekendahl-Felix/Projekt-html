@@ -1,0 +1,30 @@
+body{
+    display: grid;
+    grid-template-columns: 22% 56% 22%;
+    grid-template-rows: 100vh;
+    grid-template-areas: "A B C";
+    grid-gap: 5px;
+}
+headerimg{
+    grid-area: B;
+    text-align: center;
+    
+}
+header{
+    font-family: Karantina;
+    background-color: rgba(217, 217, 217, 0.7);
+    text-align: center;
+    grid-area: B;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 50px;
+    margin-bottom: 620px;
+    padding-top: 10px;
+
+}
+
+
+mainbody{
+    grid-area: B ;
+
+}
