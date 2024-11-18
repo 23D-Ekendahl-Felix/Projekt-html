@@ -1,7 +1,7 @@
 body{
     display: grid;
     grid-template-columns: 22% 56% 22%;
-    grid-template-rows: 70vh 50vh 3vh;
+    grid-template-rows: 70vh 100vh 3vh;
     grid-template-areas: 
     "A B F"
     "A C F"
@@ -27,7 +27,7 @@ background-repeat: no-repeat;
 background-size: cover;
 }
 header{
-    font-family: Karantina;
+    font-style: Karantina;
     background-color: rgba(217, 217, 217, 0.7);
     text-align: center;
     grid-area: B;
@@ -39,8 +39,26 @@ header{
 
 }
 
+receptbody{
+    grid-area: C;
+    display: grid;
+    grid-template-columns: 40% ;
+    grid-gap: 30px;
+    grid-template-areas: "X Y";
+    font-family: ;
+}
 
-mainbody{
-    grid-area: B ;
+ingredienser{
+    grid-area: X;
+    background-color: rgb(20, 195, 201);
+    border-radius: 5px;
+    font-style: Caveat Brush;
+}
 
+recept{
+    grid-area: Y;
+    background-color: rgb(20, 195, 201);
+    border-radius: 5px;
+    padding-left: 5px;
+    font-style: Caveat Brush;
 }
