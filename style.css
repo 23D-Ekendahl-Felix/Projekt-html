@@ -1,14 +1,30 @@
 body{
     display: grid;
     grid-template-columns: 22% 56% 22%;
-    grid-template-rows: 100vh;
-    grid-template-areas: "A B C";
+    grid-template-rows: 70vh 50vh 3vh;
+    grid-template-areas: 
+    "A B F"
+    "A C F"
+    "A D F";
     grid-gap: 5px;
 }
+div{
+    grid-area: A;
+    background-image: url(img/Skärmbild\ 2024-11-11\ 084506.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div1{
+    grid-area: F;
+    background-image: url(img/Skärmbild\ 2024-11-11\ 084506.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 headerimg{
-    grid-area: B;
-    text-align: center;
-    
+grid-area: B;
+background-image: url(img/Skärmbild\ 2024-11-11\ 084802.png);
+background-repeat: no-repeat;
+background-size: cover;
 }
 header{
     font-family: Karantina;
@@ -18,7 +34,7 @@ header{
     margin-left: 300px;
     margin-right: 300px;
     margin-top: 50px;
-    margin-bottom: 620px;
+    margin-bottom: 400px;
     padding-top: 10px;
 
 }
