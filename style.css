@@ -1,13 +1,14 @@
 body{
     display: grid;
     grid-template-columns: 22% 56% 22%;
-    grid-template-rows: 70vh 100vh 3vh;
+    grid-template-rows: 70vh 90vh 6vh;
     grid-template-areas: 
     "A B F"
     "A C F"
     "A D F";
     grid-gap: 5px;
 }
+
 div{
     grid-area: A;
     background-image: url(img/Skärmbild\ 2024-11-11\ 084506.png);
@@ -20,6 +21,7 @@ div1{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 headerimg{
 grid-area: B;
 background-image: url(img/Skärmbild\ 2024-11-11\ 084802.png);
@@ -36,7 +38,6 @@ header{
     margin-top: 50px;
     margin-bottom: 400px;
     padding-top: 10px;
-
 }
 
 receptbody{
@@ -45,16 +46,13 @@ receptbody{
     grid-template-columns: 40% ;
     grid-gap: 30px;
     grid-template-areas: "X Y";
-    font-family: ;
 }
-
 ingredienser{
     grid-area: X;
     background-color: rgb(20, 195, 201);
     border-radius: 5px;
     font-style: Caveat Brush;
 }
-
 recept{
     grid-area: Y;
     background-color: rgb(20, 195, 201);
@@ -62,3 +60,10 @@ recept{
     padding-left: 5px;
     font-style: Caveat Brush;
 }
+
+footer{
+    grid-area: D;
+    background-color: rgb(140, 140, 140);
+    padding-bottom: 10px;
+}
+
